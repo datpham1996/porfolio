@@ -5,7 +5,44 @@ Basic rules to write CSS
 - write GENERAL rules first (for all the paragraph tags in the website for example) and only after that write CSS for SPECIFIC tags (for example the paragraph tags inside the footer)
 - write the css styles to define for the parent (outside) container and THEN the children (inside containers) of that parent and THEN the children (inside containers) of the child above
 */
+body {
+  background-image: url(images/blue-background.jpg)
+}
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+img {
+  text-align: center;
+  width: 350px;
+  height: 375x;
+}
 
+.img-circle {
+  border-radius: 50%;
+}
+p {
+  margin-top: 1em;
+  line-height: 2;
+  text-align: ;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+nav {
+  text-align: center;
+}
+
+li {
+   
+  padding: 5px 10px;
+}
+.list-inside li{
+  list-style-position: inside;
+}
+.text-center{
+  text-align: center;
+}
 
 /* -------------------------------------
 CSS reset
@@ -85,10 +122,11 @@ a:hover {
 h1,
 h2,
 h3,
-h4,
+
 h5,
 h6 {
-    font-family: cursive;
+  text-align: center; 
+  font-family: cursive;
 }
 
 h2 {
@@ -147,6 +185,7 @@ Header styles (Main Module)
 (all the styles inside the < header > or < nav > tags)
 */
 header {
+  text-align: center;
   height: 700px;
   width: 100%;
   display: block;
@@ -161,6 +200,7 @@ header {
 }
 
 header h1 {
+  text-align: center;
   color: white;
   margin-top: 10%;
   font-size: 214%;
