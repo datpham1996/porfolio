@@ -44,6 +44,10 @@ li {
   text-align: center;
 }
 
+ol li{
+  list-style-type: none;
+}
+
 /* -------------------------------------
 CSS reset
 Is a short set of CSS rules that resets the styling of all HTML elements to a consistent baseline so the website will look the same on all browsers
